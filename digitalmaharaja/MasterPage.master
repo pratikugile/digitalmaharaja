@@ -1,0 +1,346 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <title>Digital Maharaja | Best Digital Marketing Agency</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!--Color Switcher Mockup-->
+    <link href="css/color-switcher-design.css" rel="stylesheet">
+    <!-- Color Themes -->
+    <link href="css/color-themes/default-color.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Preloader -->
+            <div class="preloader"></div>
+            <!-- End Preloader -->
+            <!-- Cursor -->
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+            <!-- Cursor End -->
+            <!-- Main Header -->
+            <header class="main-header main-header-one">
+                <div class="main-header-one__wrap">
+                    <!-- Main Header Lower Start -->
+                    <div class="main-header__lower">
+                        <div class="container">
+                            <div class="main-header__lower-inner">
+                                <!-- Logo Box -->
+                                <div class="main-header-one__logo-box">
+                                    <a href="index.html">
+                                        <img src="images/resource/logo-1.png" alt=""></a>
+                                </div>
+                                <div class="main-menu__box">
+                                    <div class="main-menu__top">
+                                        <ul class="main-menu__contact-info">
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-phone"></span>
+                                                </div>
+                                                <div class="content">
+                                                    <p><a href="tel:922078237756">Phone: +92 207 823 7756</a></p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-mail"></span>
+                                                </div>
+                                                <div class="content">
+                                                    <p><a href="mailto:info@company.com">Email: info@company.com</a></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="main-menu__social">
+                                            <a href="#" class="icon-facebook-app-symbol"></a>
+                                            <a href="#" class="icon-social"></a>
+                                            <a href="#" class="icon-google"></a>
+                                            <a href="#" class="icon-pinterest"></a>
+                                        </div>
+                                    </div>
+                                    <div class="main-menu__bottom">
+                                        <div class="main-menu__nav-outer-box">
+                                            <div class="nav-outer">
+                                                <!-- Main Menu -->
+                                                <nav class="main-menu show navbar-expand-md">
+                                                    <div class="navbar-header">
+                                                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                                            data-target="#navbarSupportedContent"
+                                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                                            aria-label="Toggle navigation">
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                        </button>
+                                                    </div>
+
+                                                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                                                        <ul class="navigation">
+                                                            <li><a href="default.aspx">Home</a></li>
+                                                            <li><a href="about.aspx">About Us</a></li>
+                                                            <li><a href="projects.aspx">Project</a></li>
+                                                            <li class="dropdown">
+                                                                <a href="#">shop</a>
+                                                                <ul>
+                                                                    <li><a href="products.aspx">Products</a></li>
+                                                                    <li><a href="product-single.aspx">Product Single</a></li>
+                                                                    <li><a href="cart.aspx">Cart</a></li>
+                                                                    <li><a href="checkout.aspx">Checkout</a></li>
+                                                                    <li><a href="account.aspx">Account</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="blog-details.aspx">Blog</a></li>
+
+                                                            <li><a href="contact.aspx">Contact Us</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </nav>
+                                                <!-- Main Menu End-->
+                                            </div>
+                                            <!-- Mobile Navigation Toggler -->
+                                            <div class="mobile-nav-toggler">
+                                                <span class="fas fa-bars"></span>
+                                            </div>
+                                        </div>
+                                        <div class="main-menu__bottom-right">
+                                            <ul class="main-menu__lang-and-whats-app">
+                                                <%-- <li>
+                                                    <div class="select-box clearfix">
+                                                        <select class="wide">
+                                                            <option data-display="En">EN</option>
+                                                            <option value="1">Fr</option>
+                                                            <option value="2">Gr</option>
+                                                            <option value="3">It</option>
+                                                        </select>
+                                                    </div>
+                                                </li>--%>
+                                                <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Main Header Lower End -->
+                </div>
+                <!-- Mobile Menu  -->
+                <div class="mobile-menu">
+                    <div class="menu-backdrop"></div>
+                    <div class="close-btn"><span class="icon far fa-times fa-fw"></span></div>
+                    <nav class="menu-box">
+                        <div class="nav-logo">
+                            <a href="index.html">
+                                <img src="images/logo-2.png" alt="" title=""></a>
+                        </div>
+                        <!-- Search -->
+                        <div class="search-box">
+                            <form method="post" action="contact.html">
+                                <div class="form-group">
+                                    <input type="search" name="search-field" value="" placeholder="SEARCH HERE" required>
+                                    <button type="submit"><span class="icon far fa-search fa-fw"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="menu-outer">
+                            <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                        </div>
+                    </nav>
+                </div>
+                <!-- End Mobile Menu -->
+            </header>
+            <!-- End Main Header -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- Main Footer Start -->
+            <footer class="main-footer">
+                <div class="main-footer__bg" style="background-image: url(images/background/main-footer-bg.jpg);"></div>
+                <div class="main-footer__top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                                <div class="footer-widget__column footer-widget__about">
+                                    <div class="footer-widget__logo">
+                                        <a href="index.html">
+                                            <img src="images/resource/logo-1.png" alt="digital maharaja logo" style="margin-top: -30px;"></a>
+                                    </div>
+                                    <p class="footer-widget__about-text">
+                                        There are many variations of passages Lorem Ipsum
+									available, the Ipsum has been majority suffered.
+                                    </p>
+                                    <p class="footer-widget__about-text-2">
+                                        We have the custom support and great tem members.
+									Digital Agency with the creative ideas.
+                                    </p>
+                                </div>
+                            </div>
+                            <%--<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                <div class="footer-widget__column footer-widget__newsletter">
+                                    <div class="footer-widget__title-box">
+                                        <h3 class="footer-widget__title">Newsletter</h3>
+                                    </div>
+                                    <p class="footer-widget__newsletter-text">Get the latest news other tips</p>
+                                    <form class="footer-widget__newsletter-form" novalidate="novalidate">
+                                        <div class="footer-widget__newsletter-form-input-box">
+                                            <input type="email" placeholder="Enter Email Address" name="EMAIL">
+                                            <button type="submit" class="footer-widget__newsletter-btn">
+                                                Subscribe
+											Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>--%>
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                                <div class="footer-widget__column footer-widget__contact">
+                                    <div class="footer-widget__title-box">
+                                        <h3 class="footer-widget__title">Contact Us</h3>
+                                    </div>
+                                    <p class="footer-widget__contact-text">
+                                       430/2299, Sant Tukaram Ngar, Near YCM,
+                                        <br>
+                                        Hospital Pimpri, Pune - 411018
+                                    </p>
+                                    <ul class="footer-widget__contact-list list-unstyled">
+                                        <li>
+                                            <p><a href="tel:917620446832">Phone: +91 7620446832</a></p>
+                                        </li>
+                                        <li>
+                                            <p><a href="mailto:info@digitalmaharaja.com">info@digitalmaharaja.com</a></p>
+                                        </li>
+                                    </ul>
+                                    <div class="site-footer__social">
+                                        <a href="#"><i class="icon-facebook-app-symbol"></i></a>
+                                        <a href="#"><i class="icon-social"></i></a>
+                                        <a href="#"><i class="icon-google"></i></a>
+                                        <a href="#"><i class="icon-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                                <div class="footer-widget__column footer-widget__gallery">
+                                    <div class="footer-widget__title-box">
+                                        <h3 class="footer-widget__title">Gallery</h3>
+                                    </div>
+                                    <ul class="footer-widget__gallery-list list-unstyled clearfix">
+                                        <li>
+                                            <div class="footer-widget__gallery-img">
+                                                <img src="images/gallery/footer-widget-gallery-img-1.jpg" alt="">
+                                                <%--<a href="#"><span class="fab fa-instagram"></span></a>--%>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer-widget__gallery-img">
+                                                <img src="images/gallery/footer-widget-gallery-img-2.jpg" alt="">
+                                                <%-- <a href="#"><span class="fab fa-instagram"></span></a>--%>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer-widget__gallery-img">
+                                                <img src="images/gallery/footer-widget-gallery-img-3.jpg" alt="">
+                                                <%--<a href="#"><span class="fab fa-instagram"></span></a>--%>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer-widget__gallery-img">
+                                                <img src="images/gallery/footer-widget-gallery-img-4.jpg" alt="">
+                                                <%-- <a href="#"><span class="fab fa-instagram"></span></a>--%>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer-widget__gallery-img">
+                                                <img src="images/gallery/footer-widget-gallery-img-5.jpg" alt="">
+                                                <%-- <a href="#"><span class="fab fa-instagram"></span></a>--%>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="footer-widget__gallery-img">
+                                                <img src="images/gallery/footer-widget-gallery-img-6.jpg" alt="">
+                                                <%--<a href="#"><span class="fab fa-instagram"></span></a>--%>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-footer__bottom text-center">
+                    <div class="container">
+                        <div class="main-footer__bottom-inner text-center">
+                            <p class="main-footer__bottom-text">©2024 Vitors All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Main Footer End -->
+            <!-- Search Popup -->
+            <!-- Search Popup -->
+            <div class="search-popup">
+                <div class="color-layer"></div>
+                <button class="close-search"><span class="far fa-times fa-fw"></span></button>
+                <form method="post" action="blog.html">
+                    <div class="form-group">
+                        <input type="search" name="search-field" value="" placeholder="Search Here" required="">
+                        <button type="submit"><i class="far fa-search fa-fw"></i></button>
+                    </div>
+                </form>
+            </div>
+            <!-- End Search Popup -->
+        </div>
+    </form>
+    <!-- Scroll To Top -->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up fa-fw"></span></div>
+    <!-- Scroll To Top -->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up fa-fw"></span></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/01-bootstrap.min.js"></script>
+    <script src="js/02-nice-select.min.js"></script>
+    <script src="js/03-color-settings.js"></script>
+    <script src="js/04-owl.js"></script>
+    <script src="js/05-jarallax.min.js"></script>
+    <script src="js/06-isotope.js"></script>
+    <script src="js/07-wow.js"></script>
+    <script src="js/08-validate.js"></script>
+    <script src="js/09-appear.js"></script>
+    <script src="js/10-swiper.min.js"></script>
+    <script src="js/11-jquery.easing.min.js"></script>
+    <script src="js/12-gsap.min.js"></script>
+    <script src="js/13-odometer.js"></script>
+    <script src="js/14-tilt.jquery.min.js"></script>
+    <script src="js/15-magnific-popup.min.js"></script>
+    <script src="js/16-jquery-ui.js"></script>
+    <script src="js/17-ScrollTrigger.js"></script>
+    <script src="js/18-SplitText.js"></script>
+    <script src="js/19-gsap.js"></script>
+    <script src="js/20-countdown.min.js"></script>
+    <script src="js/21-marquee.min.js"></script>
+    <script src="js/22-jquery.circleType.js"></script>
+    <script src="js/23-jquery.lettering.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</body>
+</html>
